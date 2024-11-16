@@ -1,0 +1,168 @@
+{
+  "settings": {
+    "name": "solanafm-solanafm",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.9.18",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/solanafm-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://solanafm-solanafm.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://solanafm-solanafm.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "krq56y58kb",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 4,
+    "versionPublish": "5.9.18"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "SolanaFM | Solana Explorer",
+        "meta_descr": "WEB3Step into the world of Solana like never before thanks to SolanaFM's Block Explorer which is the next generation. Observe what is happening in the actual transaction, analyze the stats of the network as well as follow the preferred wallets you are interested in.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://solana.fm/?cluster=mainnet-alpha\"><img src=\"@PROJECT_PATH@/assets/images/solanafm.png\" alt=\"SolanaFM\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "uuhUd3hroJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://solana.fm/?cluster=mainnet-alpha\"><img src=\"@PROJECT_PATH@/assets/images/solanafm.png\" alt=\"Solana FM\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "uuhUiOVk51",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b><a href=\"https://solana.fm/?cluster=mainnet-alpha\" class=\"text-primary\">SolanaFM</a> | Solana Explorer</b></h3>\n          <div class=\"row card-box align-left\">\n            \n            \n            \n            <div class=\"item features-without-image col-12 active\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">SolanaFM: Revolutionizing the Music Industry with Blockchain Technology</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Blockchain technology has disrupted many sectors in recent years, everything from finance and supply chain management to gaming. Perhaps the most interesting and up-and-coming sector this technology is touching is that of the music industry. With the emergence of decentralized platforms posing as alternatives to traditional music streaming services, things are about to change in the music world. Among such is <a href=\"https://solana.fm/?cluster=mainnet-alpha\" class=\"text-primary\">Solana FM</a>, a leading-edge decentralized music streaming platform built on the Solana blockchain.<br><br><a href=\"https://solana.fm/?cluster=mainnet-alpha\" class=\"text-primary\">SolanaFM</a> seeks to address many of the issues that have been tormenting artists and listeners alike via traditional platforms: extremely low payouts for artists, lack of control over content, and inefficiencies in royalty distribution. Powered by blockchain, SolanaFM enables new ways for artists to share their work, get just compensation, and connect with their fans via unprecedented levels of transparency, security, and speed.<br><br>The following aspects of <a href=\"https://solana.fm/?cluster=mainnet-alpha\" class=\"text-primary\">SolanaFM</a> will be discussed in this paper:<br><br>The technological platform that underpins <a href=\"https://solana.fm/?cluster=mainnet-alpha\" class=\"text-primary\">SolanaFM</a>: benefits it brings to artists, listeners, and developers; how it stacks up against the competition in decentralized platforms; the role of NFTs and cryptocurrency in music distribution; possible challenges and next steps forward; broader implications for the music industry and blockchain ecosystem at large. 1. Background: Solana and the Rise of Blockchain in Music The Solana Blockchain<br>Solana is a high-performance blockchain meant for fast, secure, and scalable dApps. Its central novelties are the Proof of History combined with the Proof of Stake, which enables Solana to handle thousands of TPS on one of the fastest blockchain platforms in the world. Solana thus contrasts with many other blockchains, such as Ethereum, whose congestion and high gas fees make them increasingly less viable platforms on which to host decentralized applications.<br><br>One of the main reasons for choosing Solana's blockchain was its low transaction fees, which made it much more suitable for applications such as music streaming, where microtransactions are the rule. At least since it found favor in the Non-Fungible Token and DeFi ecosystems, it now finds its way into music through such platforms as <a href=\"https://solana.fm/?cluster=mainnet-alpha\" class=\"text-primary\">SolanaFM</a>.<br><br>The Challenges in Traditional Music Industry<br>In the past, the music industry has also been criticized for inefficiency in paying artists. Major platforms like Spotify, Apple Music, and YouTube have been accused of promoting unfair revenue-sharing models skewed in favor of record labels and streaming services at the expense of the artists. A number of challenges confront independent musicians as far as getting exposure and fair compensation for work goes.<br><br>While this may be so, listeners often have to participate in fragmented music ecosystems, where one has to subscribe to other services or be dealing with ads, limited content, and inconsistent audio quality. Thanks to the rise in blockchain technology, growing interest has started to shift towards decentralized platforms that promise a better, more transparent, user-centric way of music streaming.<br><br>2. What is <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a>?<br>SolanaFM is a decentralized music streaming platform built on the Solana blockchain. It looks at creating a new ecosystem wherein artists retain full control of their music, better streams-earning ratios, and even connect directly with their fans. Listeners would get a new level of personalization from this approach in experience and rewards since they can earn rewards for engagement and even support artists through microtransactions.<br><br>Core Features of <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a><br>Decentralized Music Streaming<br>Unlike centralized streaming platforms, SolanaFM is completely decentralized, not needing any company or entity for hosting or managing the content. It works in a distributed manner within nodes where no single party can exercise control over it. This kind of decentralization allows artists to own more music and remain safe from any types of censorship and content deletion.<br><br>Cryptocurrency and NFTs<br><a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> is powered by cryptocurrency and NFTs. Artists can tokenize their music, essentially turning songs or albums into NFTs that are able to be bought, sold, or traded. This creates new paths for monetization of an artist's work in many ways: fans will be able to buy exclusive music NFTs, getting bonus tracks, access to live concerts, or limited edition artwork.<br><br>That's because SOL, Solana's native cryptocurrency, is baked into the platform-letting users pay for content or tip artists directly. No middlemen are involved, such as payment processing, hence near-instant transactions with low fees.<br><br>Smart Contracts for Fair Royalties<br>By integrating smart contracts, <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> automates the royalty distribution process in a way that is fair, with an appropriate amount reaching it from revenues created by the artists. The whole operation is transparent, secure, and irreversible, enabling the artist to trace their earnings in real time. This would mean no more third-party intermediaries that usually present a point of friction in a normal royalty distribution system.<br><br>Interactivity and Fan Engagement<br><a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> gives tools to artists to go live with their fans directly. Other than streaming music, an artist can host live events, Q&amp;A sessions, and behind-the-scenes content. The users also can interact with the artists by means of tipping, commenting, and sharing of content to give it more of a community feel.<br><br>Low Transaction Fees and Fast Processing<br>Building on the Solana blockchain, <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> takes advantage of one of the most scalable networks that exist in crypto space. Transaction fees are ultra-low, which is actually a crucial thing for a platform which may include heavy microtransactions. That way, small payments by users will not be penalized with high fees, a situation common with Ethereum-based platforms.<br><br>3. How <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> Benefits Artists<br>With SolanaFM, a number of strong points go out to the artists, especially those who would wish to break free from the chains of the traditional system of streaming and music distribution into taking their careers into their hands.<br><br>Full Control Over Music and Content<br>Artists maintain full ownership of their music on <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a>. They are able to upload, mint, and share their music directly with the listeners-without having to seek help from record labels or other intermediaries that take a large cut of revenue. With increased creative freedom, they can retain more of the revenue generated by their work.<br><br>Fair Compensation and Transparent Royalties<br>The unfair distribution of revenue is one of the major pain points which musicians face on traditional platforms. For instance, an artist earns a fraction of a cent every time someone plays their song on Spotify, and how that money reaches the artist is pretty obscure, too.<br><br><a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> ameliorates this through smart contracts to make the computation of due royalties and see to payments in a highly transparent and fair manner. Artists can track their earnings in real time, ensuring that they are being fairly compensated for each stream or purchase.<br><br>Direct Fan Support Through Microtransactions<br>That is the way <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> does it: by having fans directly support their favorite artists by buying music NFTs, giving tips during live streams, or purchasing exclusive content. This is bringing them closer to the artist and therefore securing financial support for the artist.<br><br>Access to New Streams of Revenue<br>By minting their music into NFTs, the artists will further be able to create additional streams of revenue through the sale of limited edition tracks, exclusive access behind the scenes content, and digital merchandise. This opens up new streams to create alternative sources of income and further reduce reliance on these traditional platforms.<br><br>4. How <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> Benefits Listeners<br>The benefits that SolanaFM offers are not limited to just artists, with this being a far more interactive and compensative experience for listeners.<br><br>Decentralized and Ad-Free Streaming<br>Unlike traditional streamers, SolanaFM is completely decentralized and doesn't use ads to generate revenue. That means no ad interruptions for listeners, thus making listening more enjoyable and uninterruptible.<br><br>Direct Support for Artists<br>With SolanaFM, for example, users can support their favorite artists directly through NFT purchases, tipping during live streams, or buying exclusive content. In such cases, the relationship would be much better between fans and musicians, perhaps even feeling that the listeners can contribute to the success of their favorite artist.<br><br>Ownership of Music using NFTs<br>For example, <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> lets listeners purchase NFTs of tracks, albums, or even concert access. These can then be further traded or resold for profit or even kept as collectibles, allowing fans a sense of ownership in the music they love.<br><br>Rewards for Engagement<br>In some cases, SolanaFM rewards listeners for their engagement. Examples are where the fans earn cryptocurrency or NFTs when interacting with content, sharing music, or participating in events within the community. This encourages their contribution towards becoming more active, thus giving life to the more dynamic platform for both artists and fans.<br><br>5. Comparison of <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> to Other Decentralized Music Platforms<br>While the most known decentralized music platform built on top of Solana is no doubt SolanaFM, it is not the only player. Audius and Arweave are attempting to disrupt the same chain within the music industry: giving more powers back to the creators and creating a direct way of monetizing their works.<br><br>Audius<br>Audius is a very popular decentralized music platform that is built upon Ethereum and Solana blockchains. Similarly to <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a>, Audius also offers much of the same decentralised hosting and pays the artists directly. Still, it is an up-and-coming service going through the same issues regarding scalability and network congestion.<br><br>Arweave<br>Arweave is a decentralized storage network with permanent data storage at low costs. Audius and Ampled are examples of music platforms that use Arweave to store music files. While Arweave doesn't stream music like SolanaFM does, it's an important part of decentralizing how music is stored and shared on the blockchain.<br><br>Key Differences<br>But most importantly, the key differences between SolanaFM and Audius or Arweave, for that matter, is that <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">SolanaFM</a> is meant more for integrating music NFTs and live fan engagement tools; whereas Audius stays more within providing the traditional streaming experience with decentralized hosting. This further means that because of such integrations, SolanaFM enjoys exclusive advantages in terms of low fees and high scalability. Its blockchain partner, Solana, enjoys these advantages against Ethereum-based competitors such as Audius.<br><br>6. Prospects and Challenges Ahead<br>Scalability and Network Growth: Arguably the most influential positive factor contributing to building upon Solana is its scalability. It is projected that with continuous growth of the platform, SolanaFM will reach a position of accommodation for huge volumes of users and transactions, without congestion and high fees accompanying Ethereum-based platforms.<br><br>However, the infrastructure for SolanaFM needs to be continuously upgraded as users increase. Most importantly, it needs to ensure that during platform scaling, the network remains fast, secure, and cheap.<br><br>Adoption and Awareness<br>For success, SolanaFM would need to attract a large number of both artists on the platform and listeners. Other than usability, this means effective marketing and outreach to the general music community. Awareness and eventual adoption could be fueled by partnerships with established artists or influencers.<br><br>Legal and Regulatory Issues<br>As a blockchain-based platform, SolanaFM will have to face particular legal and regulatory challenges considering copyright law, music licensing, and even cryptocurrency regulations. Ensuring the legality of the platform while considering the interest of the artists will be one ongoing challenge.<br><br>Conclusion<br><a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">Solana FM</a> is a great leap into the future of music streaming, providing decentralized access, empowering artists, raising the bar on the ultimate listening experience for fans, and opening new avenues for monetization and engaging one's fan base. Built on the Solana blockchain, SolanaFM can offer fast, secure, low-cost transactions-makings them a very interesting alternative to traditional music streaming services.<br><br>Of course, there are still many challenges to scale the platform and clear regulatory hurdles. But it's clear what potential <a href=\"https://solanafm-solanafm.github.io/\" class=\"text-primary\">Solana FM</a> has for disrupting the music industry. And that will be done with blockchain technology, reshaping industries on every continent. At the forefront of this music revolution lies Solana FM, bringing transparency, fairness, and innovation to where it is sorely needed.</p>\n              </div>\n            </div>\n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "uuhUjUiywb",
+          "_anchor": "article07-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
